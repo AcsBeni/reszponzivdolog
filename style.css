@@ -1,0 +1,372 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+header{
+    display: block;
+    background-color: rgb(199, 199, 199);
+    border: solid 8px black;
+    height: 5em;
+}
+nav{
+    display: block;
+    background-color: rgb(250, 206, 61);
+    border-right: solid 5px black;
+    width: 21%;
+    
+    padding: 15em auto;
+    justify-content: center;
+    height: 45em;
+    
+    
+    
+}
+main{
+    display: block;
+    background-color: rgb(231, 224, 163);
+    width: 79%;
+    height: 100%;
+    
+   
+    
+    
+}
+footer{
+    display: block;
+    background-color: rgb(118, 151, 202);
+    border: solid 8px black;
+    height: 5em;
+
+    
+}
+.flex{
+    display: flex;
+    flex-wrap:nowrap;
+    border: solid 8px black;
+    border-top: none;
+    border-bottom: none;
+    height: 100%;
+    
+    
+    
+}
+.headflex {
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+.headflex > div {
+    background-color: #f1f1f1;
+    border: solid 2px black;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    
+  }
+
+.footflex {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    
+}
+.footflex > div {
+    
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background: rgb(228, 164, 46);
+    color: rgb(68, 59, 110);
+    border: solid 2px rgb(68, 59, 110) ;
+    width: 80%;
+    height: 5em;
+   
+    
+}
+.mainflex {
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: 45em;
+    
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .card{
+      width: 25%;
+      
+      height: 40%;
+      text-align: center;
+      
+  }
+  ul{
+      width: 70%;
+  }
+  
+
+@media screen and (max-width: 770px) {
+    .card{
+        width: 30%;
+        
+        height: 40%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .card{
+        width: 40%;
+        
+        height: 20%;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        flex-wrap:nowrap;
+        border: solid 8px black;
+        border-top: none;
+        border-bottom: none;
+        height: 100%;
+        
+        
+        
+    }
+    nav{
+        display: block;
+        background-color: rgb(250, 206, 61);
+        border-right: solid 5px black;
+        width: 21%;
+        
+        padding: 15em auto;
+        justify-content: center;
+        height: 70em;
+        
+        
+        
+    }
+    .mainflex {
+        display: flex;
+        flex-wrap: wrap;
+        
+        height: 70em;
+        
+        align-items: center;
+        justify-content: center;
+        
+      }
+}
+@media screen and (max-width: 400px) {
+    body {
+      width: 100%;
+    }
+    .headflex {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 100%;
+        
+      }
+    .headflex > div {
+        background-color: #f1f1f1;
+        border: solid 2px black;
+        width: 90%;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+    
+    .footflex {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .footflex > div {
+        
+        width: 90%;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+    main{
+        display: block;
+        background-color: rgb(231, 224, 163);
+        width: 100%;
+        justify-content: space-around;
+        height: 100%;
+        
+        
+        
+    }
+    nav{
+        display: block;
+        background-color: rgb(250, 206, 61);
+        border-bottom: solid 5px black;
+        width: 100%;
+        height: 50%;
+        
+        
+        justify-content: center;
+        
+        
+        
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+      
+        border-top: none;
+        border-bottom: none;
+        height: 100%;
+        justify-content: center;
+        
+    }
+    button{
+        background: rgb(228, 164, 46);
+        color: rgb(68, 59, 110);
+        border: solid 2px rgb(68, 59, 110) ;
+        height: 100%;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .kep{
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+    .mainflex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        height: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .card{
+        width: 15em;
+      
+        height: 25%;
+  }
+}
+@media screen and (max-width: 550px) {
+    body {
+      width: 100%;
+    }
+    .headflex {
+        display: flex;
+        flex-wrap: wrap;
+        
+        height: 100%;
+        
+      }
+    .headflex > div {
+        background-color: #f1f1f1;
+        border: solid 2px black;
+        width: 90%;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+    
+    .footflex {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .footflex > div {
+        
+        width: 90%;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+    main{
+        display: block;
+        background-color: rgb(231, 224, 163);
+        width: 100%;
+        justify-content: space-around;
+        height: 100%;
+        
+        
+        
+    }
+    nav{
+        display: block;
+        background-color: rgb(250, 206, 61);
+        border-bottom: solid 5px black;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        
+        
+        justify-content: center;
+        
+        
+        
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        border: solid 8px black;
+        border-top: none;
+        border-bottom: none;
+        height: 100%;
+        justify-content: center;
+        
+    }
+    button{
+        background: rgb(228, 164, 46);
+        color: rgb(68, 59, 110);
+        border: solid 2px rgb(68, 59, 110) ;
+        height: 100%;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .kep{
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+    .mainflex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        height: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .card{
+        width: 15em;
+      
+        height: 25%;
+  }
+}
+
